@@ -1,0 +1,61 @@
+.nosotrosTitle{
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--FontFamilyTitle);
+    color: map-get($map: $paleta , $key:  'gris'  )
+}
+.nosotrosText{
+    font-size: 2rem;
+    line-height: 1.375em;
+    font-weight: 450;
+    margin: 15px;
+    padding: 0 200px;
+    overflow: auto;
+    font-family: 'Lato', sans-serif;
+    
+}
+.tituloNoticia{
+    font-size: 4rem;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: var(--FontFamilyTitle);
+    color: var(--ColorRed);
+}
+
+.contenedorMain{
+    @include grid(repeat(3, 1fr))
+    
+}
+.titleNoticia{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.textNoticia{
+    font-size: 1.3rem;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Noticia1{
+    @include flex(column, center)
+   
+}
+.imgNoticia1{
+    width: 300px;
+  
+}
+.Noticia2{
+    @include flex(column, center)
+}
+.imgNoticia2{
+    width: 300px;  
+    
+}
+.Noticia3{
+    @include flex(column, center)
+}
+.imgNoticia3{
+    width: 300px;   
+}

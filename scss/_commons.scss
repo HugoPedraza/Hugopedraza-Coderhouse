@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+*::after
+*::before
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --TextColor:rgb(56, 48, 48);
+    --TextTitle: 2rem;
+    --ColorRed:#D41212; 
+    --FontFamilyTitle: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    margin: 0;
+    background-color: map-get($map: $paleta , $key:  'blanco'  ); 
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: map-get($map: $paleta , $key:  'gris'  )
+}
+
+
+.contenedor{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: map-get($map: $paleta , $key:  'blanco'  );
+}
+.headerLogo{
+    max-height: 90px;
+    max-width: auto;
+    padding-left: 2rem;
+}
+
+.menu{
+    display: flex;
+    gap: 0;
+
+}
+
+.menuLink{
+    padding-right: 1.5rem;
+    font-size: 1.6rem;;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 3.75em;
+    font-family:var(--FontFamilyTitle);
+    color: var(--TextColor);
+}
+
+    main section{
+        padding: auto;
+
+    }
+   
+
+        main section p {
+            font-size: 1em;
+            line-height: 1.375em;
+            font-weight: 450;
+            margin: 15px;
+            padding: 10px;
+            overflow: auto;
+        } 
+
+ .backgroundRed {
+    background-color:map-get($map: $paleta , $key:  'rojo'  );
+}
+
+.textColorRed {
+    color: map-get($map: $paleta , $key:  'rojo'  );      
+ }
+
+ .mainTitle{
+    text-align: center;
+    font-size: 4.2rem;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.mainTitleRed{
+    @extend .mainTitle;
+    color: map-get($map: $paleta , $key:  'rojo'  );  
+}
+
+.titleText{
+ 
+    font-size: 2rem;
+    margin-left: 10px; 
+    color: var(--TextColor);
+}
+.textFontSize{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+.TextFooter{
+    font-size: 1.5rem;
+    color: white;
+}
+.contenedorServicios{
+    @include grid(repeat(2, 1fr))
+}
+.contenedorEnlaces{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}

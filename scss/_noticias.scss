@@ -1,0 +1,20 @@
+
+
+.contenedor1 {
+    @include flex2(center, 50px)
+}
+.contenedor2 {
+    @include flex2(center, 50px)
+}
+.contenedor3 {
+    @include flex2(center, 50px)
+}
+.noticiaImg{
+    margin-left: 50px;
+    width: 300px;
+}
+.titleText{
+    font-size: 2rem;
+    margin-left: 20px;
+    color: var(--ColorRed);
+}
