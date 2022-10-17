@@ -17,10 +17,10 @@ Autores ✒️
 Hugo Pedraza - Desarrollador total de la pagina web
 
 servidor
-https://funny-bunny-703b91.netlify.app
+https://sparkly-tulumba-972976.netlify.app/index.html
 
 repositorio
-https://github.com/HugoPedraza/coderHouseDesarrollo.git
+https://github.com/HugoPedraza/Hugopedraza-Coderhouse.git
 
 Perfil de git
 https://github.com/HugoPedraza
